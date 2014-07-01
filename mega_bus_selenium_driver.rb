@@ -31,17 +31,6 @@ require 'selenium-webdriver'
 
 module MegaBusBestDays
 
-  def self.example_run
-    mbd = MegaBusBestDays::MegaBusSeleniumDriver.new
-    mbd.set_number_of_passengers(1)
-    mbd.set_country("England")
-    mbd.set_leaving_from("Southampton")
-    mbd.set_travelling_to("London")
-    mbd.set_outbound_date
-    mbd.set_return_date
-    mbd.submit
-    mbd.results
-  end
 
   class MegaBusSeleniumDriver
     attr_accessor :driver
