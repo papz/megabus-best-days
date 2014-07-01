@@ -1,5 +1,3 @@
-
-require 'mechanize'
 require 'selenium-webdriver'
 
 ################################################
@@ -31,23 +29,10 @@ require 'selenium-webdriver'
 # Then return the page source of the results to parse.
 ################################################
 
-module MBD
-  MEGABUS_URL = "http://uk.megabus.com/"
-  SEARCH_FORM = "ctl01"
-  FIELDS = {
-    number_of_passengers: "JourneyPlanner$txtNumberOfPassengers",
-    number_of_cencessions: "JourneyPlanner$txtNumberOfConcessionPassenger",
-    country: "JourneyPlanner$hdnSelected",
-    outbound_date: "JourneyPlanner$txtOutboundDate",
-    return_date: "JourneyPlanner$txtReturnDate",
-    country: "JourneyPlanner$ddlLeavingFromState",
-    leaving_from: "JourneyPlanner$ddlLeavingFrom",
-    travelling_to: "JourneyPlanner$ddlTravellingTo",
-    travelling_by: "JourneyPlanner$ddlTravellingBy",
-    submit: "JourneyPlanner$btnSearch"}
+module MegaBusBestDays
 
   def self.example_run
-    mbd = MBD::MegaBusDriver.new
+    mbd = MegaBusBestDays::MegaBusSeleniumDriver.new
     mbd.set_number_of_passengers(1)
     mbd.set_country("England")
     mbd.set_leaving_from("Southampton")
@@ -58,7 +43,7 @@ module MBD
     mbd.results
   end
 
-  class MegaBusDriver
+  class MegaBusSeleniumDriver
     attr_accessor :driver
 
     def initialize
@@ -68,7 +53,7 @@ module MBD
     end
 
     def set_number_of_passengers(num)
-      e = @driver.find_element(:name, MBD::FIELDS[:number_of_passengers])
+      e = @driver.find_element(:name, MegaBusBestDays::FIELDS[:number_of_passengers])
       e.clear
       e.send_keys num
     end
@@ -78,7 +63,7 @@ module MBD
     end
 
     def set_country(country = "England")
-      e = @driver.find_element(:name, MBD::FIELDS[:country])
+      e = @driver.find_element(:name, MegaBusBestDays::FIELDS[:country])
       e.find_elements( :tag_name => "option").find { |o| o.text == country}.click
     end
 
@@ -104,7 +89,7 @@ module MBD
 
     def list_travelling_to
       @driver
-        .find_element(:name, MBD::FIELDS[:travelling_to])
+        .find_element(:name, MegaBusBestDays::FIELDS[:travelling_to])
         .find_elements( :tag_name => "option")
         .map(&:text)
     end
@@ -112,7 +97,7 @@ module MBD
     def set_travelling_to(to = "London")
       sleep 2
       @driver
-        .find_element(:name, MBD::FIELDS[:travelling_to])
+        .find_element(:name, MegaBusBestDays::FIELDS[:travelling_to])
         .find_elements( :tag_name => "option")
         .find { |o| o.text == to }
         .click
@@ -120,7 +105,7 @@ module MBD
 
     def set_outbound_date(date = "17/07/2014")
       sleep 4
-      e = @driver.find_element(:name, MBD::FIELDS[:outbound_date])
+      e = @driver.find_element(:name, MegaBusBestDays::FIELDS[:outbound_date])
       e.clear
       e.send_keys date
       e.send_keys :enter
@@ -128,14 +113,14 @@ module MBD
 
     def set_return_date(date = "26/07/2014")
       sleep 2
-      e =  @driver.find_element(:name, MBD::FIELDS[:return_date])
+      e =  @driver.find_element(:name, MegaBusBestDays::FIELDS[:return_date])
       e.clear
       e.send_keys date
       e.send_keys :enter
     end
 
     def submit
-      @driver.find_element(:name, MBD::FIELDS[:submit]).click
+      @driver.find_element(:name, MegaBusBestDays::FIELDS[:submit]).click
     end
 
     def results

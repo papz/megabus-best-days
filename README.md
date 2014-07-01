@@ -10,6 +10,12 @@ Running with selenium
 [http://tutorials.jumpstartlab.com/topics/capybara/capybara_with_selenium_and_webkit.html]
 * xvfb-run [program ex. irb -I search.rb]
 
+Running with capybara-webkit
+for headless, use of simple capybara dsl and speed.
+Requirements:
+QtWebKit
+linux - sudo apt-get install libqt4-dev
+
 * currently providing basic searching with predefined locations due to mechanize
   library
   for ruby not being able to handle javascript on the page.
