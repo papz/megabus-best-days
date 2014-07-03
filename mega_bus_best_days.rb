@@ -1,4 +1,5 @@
 require_relative 'mega_bus_selenium_driver'
+require_relative 'mega_bus_webkit'
 
 module MegaBusBestDays
   MEGABUS_URL = "http://uk.megabus.com/"
@@ -27,4 +28,7 @@ module MegaBusBestDays
     mbd.results
   end
 
+  def self.webkit_example
+    m = MegaBusBestDays::MegaBusWebkitDriver.new.fill_form
+  end
 end
