@@ -37,125 +37,58 @@ module MegaBusBestDays
 
   class MegaBusWebkitDriver
     include Capybara::DSL
-    attr_accessor :driver
 
     def initialize
+      @logger = Logger.new('log/search.log', 'monthly')
       visit "http://uk.megabus.com/"
     end
 
-    def fill_form
-      puts "filling in pass" if find(:id, "JourneyPlanner_txtNumberOfPassengers")
-      fill_in "JourneyPlanner$txtNumberOfPassengers", with: "1"
-      puts "filling in #{"JourneyPlanner$hdnSelected"}"
-      select('England', :from => "JourneyPlanner_ddlLeavingFromState")
-      save_screenshot '/tmp/w1.png'
+    def fill_form(num_pass, country, from, to, outbound_date, return_date)
+      @logger.info "Filling in number of Passengers with #{num_pass}"
+      fill_in "JourneyPlanner$txtNumberOfPassengers", with: num_pass
+      @logger.info "Selecting country"
+      select(country, :from => "JourneyPlanner_ddlLeavingFromState")
       sleep 3
-      puts "leave found" if find(:id, "JourneyPlanner_ddlLeavingFrom")
+      @logger.info "Selecting from #{from}"
       select('Southampton', :from => "JourneyPlanner$ddlLeavingFrom")
-      save_screenshot '/tmp/w2.png'
       sleep 3
-      puts "to found" if find(:id, "JourneyPlanner_ddlTravellingTo")
       find(:id, "JourneyPlanner_ddlTravellingTo").click
-      select('London', :from => "JourneyPlanner$ddlTravellingTo")
-      save_screenshot '/tmp/w3.png'
-      puts "to outbounddate" if find(:id, "JourneyPlanner_txtOutboundDate")
-      fill_in "JourneyPlanner$txtOutboundDate", with: "18/07/2014"
+      @logger.info "Selecting to #{to}"
+      select(to, :from => "JourneyPlanner$ddlTravellingTo")
+      @logger.info "Fill in outbound date"
+      fill_in "JourneyPlanner$txtOutboundDate", with: outbound_date
       find(:id, "JourneyPlanner_txtOutboundDate").click
       find(:id, "JourneyPlanner_txtNumberOfPassengers").click
-      save_screenshot '/tmp/w32.png'
-      puts "to outbounddate" if find(:id, "JourneyPlanner_txtReturnDate").click
-      fill_in "JourneyPlanner$txtReturnDate", with: "27/07/2014"
-      save_screenshot '/tmp/w4.png'
+      fill_in "JourneyPlanner$txtReturnDate", with: return_date
       find(:id, "searchandbuy").click
-      save_screenshot '/tmp/w5.png'
+      @logger.info "Submit"
       find(:id, "JourneyPlanner_btnSearch").click
-      save_screenshot '/tmp/w5.png'
-      @driver
-    end
-
-    def get_countries
-      find(:id, "JourneyPlanner_ddlLeavingFromState").text.split(' ')
-    end
-
-    def store_countries(countries)
-      store = YAML::Store.new("countries.yml")
-      store.transaction do
-        store[:countries] = countries
-      end
     end
 
     def list_countries
-      @driver.find_elements( :tag_name => "option").map(&:text)
-    end
-
-    def set_country(country = "England")
-      e = @driver.find_element(:name, MegaBusBestDays::FIELDS[:country])
-      e.find_elements( :tag_name => "option").find { |o| o.text == country}.click
-    end
-
-    def selected_country?
-      @driver
-        .find_elements( :tag_name => "option")
-        .map {|e| e if e.selected? }.compact[0].text
+      all(:xpath, '//select[@id="JourneyPlanner_ddlLeavingFromState"]/option')
+        .map {|e| e.text }
     end
 
     def list_leaving_from
-      e = @driver
-        .find_element(:name, "JourneyPlanner$ddlLeavingFrom")
-        .find_elements( :tag_name => "option")
+      all(:xpath, '//select[@id="JourneyPlanner_ddlLeavingFrom"]/option')
+        .map {|e| e.text }
     end
 
-    def set_leaving_from(from = "Southampton")
-      sleep 2
-      element = @driver
-        .find_element(:name, "JourneyPlanner$ddlLeavingFrom")
-        .find_elements( :tag_name => "option")
-        .find { |o| o.text == from }.click
+    def list_leaving_to
+      all(:xpath, '//select[@id="JourneyPlanner_ddlTravellingTo"]/option')
+        .map {|e| e.text }
     end
 
-    def list_travelling_to
-      @driver
-        .find_element(:name, MegaBusBestDays::FIELDS[:travelling_to])
-        .find_elements( :tag_name => "option")
-        .map(&:text)
-    end
-
-    def set_travelling_to(to = "London")
-      sleep 2
-      @driver
-        .find_element(:name, MegaBusBestDays::FIELDS[:travelling_to])
-        .find_elements( :tag_name => "option")
-        .find { |o| o.text == to }
-        .click
-    end
-
-    def set_outbound_date(date = "17/07/2014")
-      sleep 4
-      e = @driver.find_element(:name, MegaBusBestDays::FIELDS[:outbound_date])
-      e.clear
-      e.send_keys date
-      e.send_keys :enter
-    end
-
-    def set_return_date(date = "26/07/2014")
-      sleep 2
-      e =  @driver.find_element(:name, MegaBusBestDays::FIELDS[:return_date])
-      e.clear
-      e.send_keys date
-      e.send_keys :enter
-    end
-
-    def submit
-      @driver.find_element(:name, MegaBusBestDays::FIELDS[:submit]).click
-    end
-
-    def results
-      @driver.page_source
-    end
-
-    def quit
-      @driver.quit
+    def store_search_data(countries, from, to)
+      store = YAML::Store.new("search_data.yml")
+      store.transaction do
+        store[:countries] = countries
+        store[:from] = from
+        store[:to] = to
+      end
     end
 
   end
+
 end
