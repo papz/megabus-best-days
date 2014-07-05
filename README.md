@@ -20,3 +20,9 @@ linux - sudo apt-get install libqt4-dev
   library
   for ruby not being able to handle javascript on the page.
 * requires phantomjs or some other web driver for javascript interop
+
+todo
+----
+* command line console menu to select routes and display results
+* options to choose date range and criteria for your price and time
+* provide an update of previously purchased route and display the difference in price
