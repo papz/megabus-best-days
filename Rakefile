@@ -1,4 +1,11 @@
-require File.join(File.expand_path('.'),'mega_bus_webkit')
+require 'rake'
+require 'rake/testtask'
+
+Rake::TestTask.new do |t|
+  t.libs.push "lib"
+  t.test_files = FileList['specs/*_spec.rb']
+  t.verbose = true
+end
 
 task :store_routes do
   m = MegaBusBestDays::MegaBusWebkitDriver.new
