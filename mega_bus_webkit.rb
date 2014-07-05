@@ -1,6 +1,7 @@
 require 'capybara-webkit'
 require 'capybara/dsl'
 require 'yaml/store'
+require 'logger'
 ################################################
 # A basic web scraper for the Megabus web interface
 #
@@ -75,20 +76,38 @@ module MegaBusBestDays
         .map {|e| e.text }
     end
 
-    def list_leaving_to
+    def list_travelling_to
       all(:xpath, '//select[@id="JourneyPlanner_ddlTravellingTo"]/option')
         .map {|e| e.text }
     end
 
-    def store_search_data(countries, from, to)
+    # Read search_data.yml for countries
+    # to trigger from destinations in the form
+    def routes
+      @logger.info "#{__method__}"
+      fill_in "JourneyPlanner$txtNumberOfPassengers", with: "1"
+      country_routes = list_countries.inject([]) do |country_result, country|
+        @logger.info "routes for #{country}"
+        select(country, :from => "JourneyPlanner_ddlLeavingFromState")
+        sleep 3
+        to_from = list_leaving_from.inject([]) do |from_result, from|
+          @logger.info "routes from #{from}"
+          sleep 2
+          select(from, :from => "JourneyPlanner$ddlLeavingFrom")
+          from_result << {from => list_travelling_to}
+          from_result
+        end
+        country_result << {country => to_from}
+        country_result
+      end
+    end
+
+    def store_search_data(routes)
       store = YAML::Store.new("search_data.yml")
       store.transaction do
-        store[:countries] = countries
-        store[:from] = from
-        store[:to] = to
+        store[:routes] = routes
       end
     end
 
   end
-
 end
