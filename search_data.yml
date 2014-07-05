@@ -1,130 +1,5155 @@
 ---
-:countries:
-- All
-- Belgium
-- England
-- France
-- Germany
-- Netherlands
-- Republic of Ireland
-- Scotland
-- Spain
-- Wales
-:from:
-- Select
-- Axminster
-- Banbury
-- Barnsley
-- Bath
-- Bath Spa
-- Bedford
-- Birmingham
-- Birmingham International Airport
-- Blackburn
-- Bolton
-- Bournemouth
-- Bradford
-- Brighton
-- Bristol
-- Bristol UWE
-- Burnley
-- Camborne
-- Cambridge
-- Canterbury
-- Carlisle
-- Castleford
-- Cheltenham
-- Chester
-- Chesterfield
-- Chippenham
-- Colchester
-- Colne
-- Corsham
-- Coventry
-- Crawley
-- Crewe
-- Daventry
-- Derby
-- Doncaster
-- East Dereham
-- East Midlands Parkway
-- Exeter
-- Gloucester
-- Halifax
-- Harrogate
-- Havant
-- High Wycombe
-- Honiton
-- Huddersfield
-- Hull
-- Ipswich
-- Keighley
-- Kings Lynn
-- Lancaster
-- Leeds
-- Leicester
-- Liverpool
-- London
-- Loughborough
-- Luton
-- Manchester
-- Middlesbrough
-- Milton Keynes
-- Nelson
-- Newbury
-- Newcastle
-- Newquay
-- Newton Abbot
-- Northampton
-- Norwich
-- Norwich, University of East Anglia
-- Nottingham
-- Oxenholme
-- Oxford
-- Paignton
-- Penzance
-- Peterborough
-- Plymouth
-- Poole
-- Portsmouth
-- Preston
-- Reading
-- Redruth
-- Rugby
-- Salisbury
-- Scotch Corner
-- Scunthorpe
-- Sheffield
-- Silverstone
-- Southampton
-- Southampton Airport
-- St Erth
-- Stoke-On-Trent
-- Sunderland
-- Swindon
-- Taunton
-- Thetford
-- Torquay
-- Wakefield/Woolley Edge
-- Warrington
-- Weymouth
-- Wigan
-- Winchester
-- Worcester
-- Worthing
-- Yeovil Junction
-- York
-:to:
-- Select
-- Birmingham
-- Birmingham International Airport
-- Coventry
-- Leeds
-- London
-- Manchester
-- Middlesbrough
-- Newcastle
-- Oxford
-- Sheffield
-- Silverstone
-- Sunderland
+:routes:
+- All:
+  - Select: []
+  - Aberdeen: []
+  - Aberystwyth:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Amsterdam:
+    - Select
+    - Cardiff
+    - Carmarthen
+    - London
+    - Swansea
+  - Antwerp:
+    - Select
+    - Aberdeen
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Aviemore:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Axminster:
+    - Select
+    - Birmingham
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - London
+    - Manchester
+    - Newcastle
+    - Perth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Stirling
+    - Wakefield/Woolley Edge
+  - Banbury:
+    - Select
+    - London
+  - Barcelona:
+    - Select
+    - Silverstone
+  - Barnsley:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Bath
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Bath:
+    - Select
+    - Silverstone
+  - Bath Spa:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Swindon
+    - Toulouse
+  - Bedford:
+    - Select
+    - London
+  - Bessines-sur-Gartempe:
+    - Select
+    - Silverstone
+  - Birmingham:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Birmingham International Airport:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Cwmbran
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Inveraray
+    - Inverness
+    - Leeds
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Oban
+    - Oxenholme
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+    - Tarbert
+    - Toulouse
+  - Blackburn:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Liverpool
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Oxford
+    - Paris
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+  - Bolton:
+    - Select
+    - Silverstone
+  - Boulogne:
+    - Select
+    - Carlisle
+    - Edinburgh
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - London
+    - Loughborough
+    - Milton Keynes
+    - Rugby
+    - Sheffield
+    - Silverstone
+  - Bournemouth:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Bradford:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Brighton:
+    - Select
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - Hull
+    - London
+    - Nelson
+    - Sheffield
+  - Bristol:
+    - Select
+    - Silverstone
+  - Bristol UWE:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Cardiff
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Glasgow
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Newton Abbot
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paignton
+    - Paris
+    - Pembroke Dock
+    - Plymouth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Silverstone
+    - Sunderland
+    - Swansea
+    - Torquay
+    - Toulouse
+  - Brive-la-Gaillarde:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Cardiff
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paris
+    - Pembroke Dock
+    - Plymouth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Sunderland
+    - Swansea
+    - Toulouse
+  - Brussels:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Burnley:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Limoges
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Camborne:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Cambridge:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Campbeltown:
+    - Select
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Norwich
+    - Norwich, University of East Anglia
+    - Oxford
+    - Silverstone
+  - Canterbury:
+    - Select
+    - Birmingham
+    - Coventry
+    - Glasgow
+    - Inveraray
+    - Lochgilphead
+    - London
+    - Manchester
+    - Preston
+    - Rugby
+    - Tarbert
+  - Cardiff:
+    - Select
+    - Silverstone
+  - Carlisle:
+    - Select
+    - Aberystwyth
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Gent
+    - Glasgow
+    - Lampeter
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paris
+    - Pembroke Dock
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Silverstone
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Toulouse
+  - Carmarthen:
+    - Select
+    - Birmingham
+    - Bolton
+    - Crewe
+    - Edinburgh
+    - Glasgow
+    - Lancaster
+    - London
+    - Manchester
+    - Oxenholme
+    - Preston
+    - Warrington
+  - Castleford:
+    - Select
+    - Aberystwyth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - London
+    - Newport
+    - Pembroke Dock
+    - Rosslare
+    - Swansea
+  - Cheltenham:
+    - Select
+    - East Midlands Parkway
+    - Hull
+    - London
+    - York
+  - Chester:
+    - Select
+    - London
+    - Silverstone
+    - Swindon
+  - Chesterfield:
+    - Select
+    - Dublin
+    - Holyhead
+    - London
+    - Manchester
+    - Silverstone
+  - Chippenham:
+    - Select
+    - London
+  - Colchester:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Toulouse
+  - Colne:
+    - Select
+    - Silverstone
+  - Cologne:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Corsham:
+    - Select
+    - Aberdeen
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Coventry:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Swindon
+    - Toulouse
+  - Crawley:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Cologne
+    - Gent
+    - Inveraray
+    - Leeds
+    - Lille
+    - Liverpool
+    - Lochgilphead
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Oxford
+    - Paris
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+    - Tarbert
+  - Crewe:
+    - Select
+    - Silverstone
+  - Cumbernauld:
+    - Select
+    - Carlisle
+    - Glasgow
+    - Oxenholme
+    - Preston
+  - Cwmbran:
+    - Select
+    - London
+  - Daventry:
+    - Select
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Leeds
+    - London
+    - Manchester
+  - Derby:
+    - Select
+    - Silverstone
+  - Doncaster:
+    - Select
+    - London
+    - Silverstone
+  - Dublin:
+    - Select
+    - Castleford
+    - East Midlands Parkway
+    - Harrogate
+    - Hull
+    - London
+    - Silverstone
+    - York
+  - Dundee:
+    - Select
+    - Chester
+    - Holyhead
+    - London
+    - Manchester
+  - Dunfermline:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - East Dereham:
+    - Select
+    - London
+  - East Midlands Parkway:
+    - Select
+    - Silverstone
+  - Edinburgh:
+    - Select
+    - Bradford
+    - Burnley
+    - Castleford
+    - Colne
+    - Doncaster
+    - Halifax
+    - Harrogate
+    - Huddersfield
+    - Hull
+    - Keighley
+    - London
+    - Nelson
+    - Scunthorpe
+    - York
+  - Edinburgh Airport:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Carlisle
+    - Cologne
+    - Dundee
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Exeter:
+    - Select
+    - Aberdeen
+    - Aviemore
+    - Carlisle
+    - Dundee
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Perth
+    - Pitlochry
+  - Falkirk:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Camborne
+    - Cologne
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newquay
+    - Paignton
+    - Paris
+    - Penzance
+    - Plymouth
+    - Redruth
+    - Rotterdam
+    - Silverstone
+    - St Erth
+    - Sunderland
+    - Torquay
+    - Toulouse
+  - Gent:
+    - Select
+    - London
+  - Glasgow:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Gloucester:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Bolton
+    - Boulogne
+    - Bristol
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Inveraray
+    - Inverness
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Oban
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Tarbert
+    - Toulouse
+    - Wakefield/Woolley Edge
+    - Warrington
+  - Halbeath Interchange:
+    - Select
+    - London
+    - Silverstone
+    - Swindon
+    - Worcester
+  - Halifax:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Harrogate:
+    - Select
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - London
+    - Nelson
+    - Sheffield
+  - Havant:
+    - Select
+    - Doncaster
+    - East Midlands Parkway
+    - London
+  - High Wycombe:
+    - Select
+    - London
+  - Holyhead:
+    - Select
+    - Silverstone
+  - Honiton:
+    - Select
+    - Chester
+    - Dublin
+    - London
+    - Manchester
+  - Huddersfield:
+    - Select
+    - London
+  - Hull:
+    - Select
+    - Bradford
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - Hull
+    - London
+    - Nelson
+    - Sheffield
+    - York
+  - Inveraray:
+    - Select
+    - Bradford
+    - Castleford
+    - Doncaster
+    - East Midlands Parkway
+    - Harrogate
+    - Huddersfield
+    - Leeds
+    - London
+    - Scunthorpe
+    - Silverstone
+    - York
+  - Inverkeithing:
+    - Select
+    - Birmingham
+    - Campbeltown
+    - Coventry
+    - Glasgow
+    - Lochgilphead
+    - London
+    - Manchester
+    - Oban
+    - Preston
+    - Rugby
+    - Tarbert
+  - Inverness:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Aviemore
+    - Boulogne
+    - Brussels
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leeds
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Ipswich:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Keighley:
+    - Select
+    - Silverstone
+  - Kings Lynn:
+    - Select
+    - East Midlands Parkway
+    - London
+  - Kinross:
+    - Select
+    - Silverstone
+  - Lampeter:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Lancaster:
+    - Select
+    - Cardiff
+    - London
+    - Swansea
+  - Leeds:
+    - Select
+    - Aberdeen
+    - Bolton
+    - Carlisle
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Leeds
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Perth
+    - Rugby
+    - Sheffield
+    - Stirling
+  - Leicester:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Hull
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Toulouse
+  - Lille:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Milton Keynes
+    - Nottingham
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Toulouse
+  - Limoges:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Liverpool:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Lochgilphead:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Coventry
+    - Gent
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Paris
+    - Rotterdam
+    - Silverstone
+    - Toulouse
+  - London:
+    - Select
+    - Birmingham
+    - Campbeltown
+    - Coventry
+    - Glasgow
+    - Inveraray
+    - London
+    - Manchester
+    - Preston
+    - Rugby
+    - Tarbert
+  - Loughborough:
+    - Select
+    - Aberdeen
+    - Aberystwyth
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Axminster
+    - Barcelona
+    - Bath
+    - Bath Spa
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bradford
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Burnley
+    - Camborne
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Carmarthen
+    - Castleford
+    - Cheltenham
+    - Chester
+    - Chesterfield
+    - Chippenham
+    - Colne
+    - Cologne
+    - Corsham
+    - Coventry
+    - Cumbernauld
+    - Cwmbran
+    - Derby
+    - Doncaster
+    - Dublin
+    - Dundee
+    - Dunfermline
+    - East Midlands Parkway
+    - Edinburgh
+    - Exeter
+    - Falkirk
+    - Gent
+    - Glasgow
+    - Gloucester
+    - Halbeath Interchange
+    - Halifax
+    - Harrogate
+    - Havant
+    - Holyhead
+    - Honiton
+    - Huddersfield
+    - Hull
+    - Inveraray
+    - Inverkeithing
+    - Inverness
+    - Keighley
+    - Kinross
+    - Lampeter
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - Lochgilphead
+    - Loughborough
+    - Macclesfield
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Nelson
+    - Newcastle
+    - Newport
+    - Newquay
+    - Newton Abbot
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Oban
+    - Oxford
+    - Paignton
+    - Paris
+    - Pembroke Dock
+    - Penzance
+    - Perth
+    - Pitlochry
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Redruth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Salisbury
+    - Scotch Corner
+    - Scunthorpe
+    - Sheffield
+    - Silverstone
+    - Skipton
+    - Southampton
+    - St Erth
+    - Stirling
+    - Stockport
+    - Stoke-On-Trent
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Tarbert
+    - Torquay
+    - Toulouse
+    - Wakefield/Woolley Edge
+    - Weymouth
+    - Worcester
+    - Yeovil Junction
+    - York
+  - Luton:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Milton Keynes
+    - Nottingham
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Toulouse
+  - Manchester:
+    - Select
+    - Silverstone
+  - Middlesbrough:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Chester
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Dublin
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Holyhead
+    - Inveraray
+    - Inverness
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Oban
+    - Oxford
+    - Paris
+    - Perth
+    - Pitlochry
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Stirling
+    - Sunderland
+    - Tarbert
+    - Toulouse
+  - Milton Keynes:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Exeter
+    - Leeds
+    - London
+    - Manchester
+    - Oxford
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Wakefield/Woolley Edge
+  - Nelson:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Bolton
+    - Boulogne
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - London
+    - Loughborough
+    - Manchester
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+  - Newbury:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Newcastle:
+    - Select
+    - Silverstone
+  - Newport:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Newquay:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Carmarthen
+    - Coventry
+    - Limoges
+    - London
+    - Paris
+    - Pembroke Dock
+    - Rosslare
+    - Rugby
+    - Silverstone
+    - Swansea
+    - Swindon
+    - Toulouse
+  - Newton Abbot:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Northampton:
+    - Select
+    - Bristol
+    - London
+  - Norwich:
+    - Select
+    - Silverstone
+  - Norwich, University of East Anglia:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cambridge
+    - Cardiff
+    - Limoges
+    - London
+    - Paris
+    - Silverstone
+    - Toulouse
+  - Nottingham:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cambridge
+    - Cardiff
+    - Limoges
+    - London
+    - Paris
+    - Toulouse
+  - Oban:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Gent
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Paris
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Toulouse
+  - Oxenholme:
+    - Select
+    - Birmingham
+    - Glasgow
+    - Inveraray
+    - London
+    - Manchester
+    - Preston
+  - Oxford:
+    - Select
+    - Birmingham
+    - Carlisle
+    - Crewe
+    - Edinburgh
+    - Glasgow
+    - Preston
+    - Warrington
+  - Paignton:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Cambridge
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Poole
+    - Portsmouth
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+  - Paris:
+    - Select
+    - Bristol
+    - Exeter
+    - London
+    - Silverstone
+  - Pembroke Dock:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Penzance:
+    - Select
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Carmarthen
+    - London
+    - Newport
+    - Rosslare
+    - Swansea
+  - Perth:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Peterborough:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Ramsgate
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Pitlochry:
+    - Select
+    - Silverstone
+  - Plymouth:
+    - Select
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Perth
+    - Stirling
+  - Poole:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Camborne
+    - Cologne
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newquay
+    - Paris
+    - Penzance
+    - Redruth
+    - Rotterdam
+    - Silverstone
+    - St Erth
+    - Sunderland
+    - Toulouse
+  - Portsmouth:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Preston:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Silverstone
+    - Sunderland
+  - Reading:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Inveraray
+    - Inverness
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Oban
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Tarbert
+    - Toulouse
+    - Warrington
+  - Redruth:
+    - Select
+    - Silverstone
+  - Rosslare:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Rotterdam:
+    - Select
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Carmarthen
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Newport
+    - Pembroke Dock
+    - Swansea
+  - Rugby:
+    - Select
+    - Aberdeen
+    - Antwerp
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Salisbury:
+    - Select
+    - Bolton
+    - Bristol
+    - Bristol UWE
+    - Campbeltown
+    - Cardiff
+    - Edinburgh
+    - Glasgow
+    - Inveraray
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Preston
+    - Sheffield
+    - Sunderland
+    - Swansea
+    - Tarbert
+  - Scotch Corner:
+    - Select
+    - London
+  - Scunthorpe:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Paris
+    - Perth
+    - Rotterdam
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Sheffield:
+    - Select
+    - East Midlands Parkway
+    - Harrogate
+    - Hull
+    - London
+    - Silverstone
+    - York
+  - Silverstone:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bradford
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Halifax
+    - Huddersfield
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Oxford
+    - Paris
+    - Perth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Toulouse
+  - Southampton:
+    - Select
+    - Banbury
+    - Barnsley
+    - Bedford
+    - Birmingham
+    - Blackburn
+    - Bolton
+    - Brighton
+    - Bristol
+    - Cambridge
+    - Canterbury
+    - Cardiff
+    - Cheltenham
+    - Chester
+    - Colchester
+    - Coventry
+    - Crawley
+    - Daventry
+    - Derby
+    - Doncaster
+    - Dundee
+    - East Dereham
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Gloucester
+    - High Wycombe
+    - Hull
+    - Ipswich
+    - Kings Lynn
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Luton
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newbury
+    - Newcastle
+    - Newport
+    - Northampton
+    - Norwich
+    - Nottingham
+    - Oxford
+    - Paignton
+    - Perth
+    - Peterborough
+    - Plymouth
+    - Portsmouth
+    - Preston
+    - Reading
+    - Scunthorpe
+    - Sheffield
+    - Southampton
+    - Stoke-On-Trent
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Taunton
+    - Thetford
+    - Torquay
+    - Warrington
+    - Wigan
+    - Winchester
+    - Worthing
+    - York
+  - Southampton Airport:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Silverstone
+    - Sunderland
+  - St Erth:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Stirling:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Stoke-On-Trent:
+    - Select
+    - Aberdeen
+    - Aviemore
+    - Dundee
+    - Edinburgh
+    - Glasgow
+    - Inverness
+    - Lancaster
+    - London
+    - Manchester
+    - Perth
+    - Pitlochry
+    - Preston
+  - Sunderland:
+    - Select
+    - Silverstone
+  - Swansea:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Exeter
+    - Leeds
+    - London
+    - Manchester
+    - Oxford
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Wakefield/Woolley Edge
+  - Swindon:
+    - Select
+    - Aberystwyth
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Carmarthen
+    - Coventry
+    - Lampeter
+    - London
+    - Newport
+    - Pembroke Dock
+    - Rosslare
+    - Rugby
+    - Silverstone
+  - Tarbert:
+    - Select
+    - Barcelona
+    - Bath
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Cardiff
+    - Cheltenham
+    - Corsham
+    - Gloucester
+    - Limoges
+    - London
+    - Newport
+    - Paris
+    - Silverstone
+    - Toulouse
+    - Worcester
+  - Taunton:
+    - Select
+    - Birmingham
+    - Campbeltown
+    - Coventry
+    - Glasgow
+    - Inveraray
+    - Lochgilphead
+    - London
+    - Manchester
+    - Preston
+    - Rugby
+  - Thetford:
+    - Select
+    - Silverstone
+  - Torquay:
+    - Select
+    - Silverstone
+  - Toulouse:
+    - Select
+    - Bristol
+    - Exeter
+    - London
+    - Silverstone
+  - Wakefield/Woolley Edge:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Warrington:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lille
+    - Limoges
+    - London
+    - Middlesbrough
+    - Newcastle
+    - Paris
+    - Perth
+    - Rotterdam
+    - Scotch Corner
+    - Sunderland
+    - Toulouse
+  - Weymouth:
+    - Select
+    - Carlisle
+    - Glasgow
+    - Oxenholme
+    - Preston
+    - Silverstone
+  - Wigan:
+    - Select
+    - London
+  - Winchester:
+    - Select
+    - Silverstone
+  - Worcester:
+    - Select
+    - Silverstone
+  - Worthing:
+    - Select
+    - Gloucester
+    - London
+    - Swindon
+  - Yeovil Junction:
+    - Select
+    - Silverstone
+  - York:
+    - Select
+    - London
+- Belgium:
+  - Select: []
+  - Antwerp: []
+  - Brussels:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Gent:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Limoges
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+- England:
+  - Select: []
+  - Axminster: []
+  - Banbury:
+    - Select
+    - London
+  - Barnsley:
+    - Select
+    - Silverstone
+  - Bath:
+    - Select
+    - Silverstone
+  - Bath Spa:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Swindon
+    - Toulouse
+  - Bedford:
+    - Select
+    - London
+  - Birmingham:
+    - Select
+    - Silverstone
+  - Birmingham International Airport:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Cwmbran
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Inveraray
+    - Inverness
+    - Leeds
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Oban
+    - Oxenholme
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+    - Tarbert
+    - Toulouse
+  - Blackburn:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Liverpool
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Oxford
+    - Paris
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+  - Bolton:
+    - Select
+    - Silverstone
+  - Bournemouth:
+    - Select
+    - Carlisle
+    - Edinburgh
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - London
+    - Loughborough
+    - Milton Keynes
+    - Rugby
+    - Sheffield
+    - Silverstone
+  - Bradford:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Brighton:
+    - Select
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - Hull
+    - London
+    - Nelson
+    - Sheffield
+  - Bristol:
+    - Select
+    - Silverstone
+  - Bristol UWE:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Cardiff
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Glasgow
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Newton Abbot
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paignton
+    - Paris
+    - Pembroke Dock
+    - Plymouth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Silverstone
+    - Sunderland
+    - Swansea
+    - Torquay
+    - Toulouse
+  - Burnley:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Cardiff
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paris
+    - Pembroke Dock
+    - Plymouth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Sunderland
+    - Swansea
+    - Toulouse
+  - Camborne:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Cambridge:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Canterbury:
+    - Select
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Norwich
+    - Norwich, University of East Anglia
+    - Oxford
+    - Silverstone
+  - Carlisle:
+    - Select
+    - Silverstone
+  - Castleford:
+    - Select
+    - Birmingham
+    - Bolton
+    - Crewe
+    - Edinburgh
+    - Glasgow
+    - Lancaster
+    - London
+    - Manchester
+    - Oxenholme
+    - Preston
+    - Warrington
+  - Cheltenham:
+    - Select
+    - East Midlands Parkway
+    - Hull
+    - London
+    - York
+  - Chester:
+    - Select
+    - London
+    - Silverstone
+    - Swindon
+  - Chesterfield:
+    - Select
+    - Dublin
+    - Holyhead
+    - London
+    - Manchester
+    - Silverstone
+  - Chippenham:
+    - Select
+    - London
+  - Colchester:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Toulouse
+  - Colne:
+    - Select
+    - Silverstone
+  - Corsham:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Coventry:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Limoges
+    - London
+    - Paris
+    - Swindon
+    - Toulouse
+  - Crawley:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Cologne
+    - Gent
+    - Inveraray
+    - Leeds
+    - Lille
+    - Liverpool
+    - Lochgilphead
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newport
+    - Oxford
+    - Paris
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Swansea
+    - Tarbert
+  - Crewe:
+    - Select
+    - Silverstone
+  - Daventry:
+    - Select
+    - Carlisle
+    - Glasgow
+    - Oxenholme
+    - Preston
+  - Derby:
+    - Select
+    - Silverstone
+  - Doncaster:
+    - Select
+    - London
+    - Silverstone
+  - East Dereham:
+    - Select
+    - Castleford
+    - East Midlands Parkway
+    - Harrogate
+    - Hull
+    - London
+    - Silverstone
+    - York
+  - East Midlands Parkway:
+    - Select
+    - Silverstone
+  - Exeter:
+    - Select
+    - Bradford
+    - Burnley
+    - Castleford
+    - Colne
+    - Doncaster
+    - Halifax
+    - Harrogate
+    - Huddersfield
+    - Hull
+    - Keighley
+    - London
+    - Nelson
+    - Scunthorpe
+    - York
+  - Gloucester:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Camborne
+    - Cologne
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newquay
+    - Paignton
+    - Paris
+    - Penzance
+    - Plymouth
+    - Redruth
+    - Rotterdam
+    - Silverstone
+    - St Erth
+    - Sunderland
+    - Torquay
+    - Toulouse
+  - Halifax:
+    - Select
+    - London
+    - Silverstone
+    - Swindon
+    - Worcester
+  - Harrogate:
+    - Select
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - London
+    - Nelson
+    - Sheffield
+  - Havant:
+    - Select
+    - Doncaster
+    - East Midlands Parkway
+    - London
+  - High Wycombe:
+    - Select
+    - London
+  - Honiton:
+    - Select
+    - Silverstone
+  - Huddersfield:
+    - Select
+    - London
+  - Hull:
+    - Select
+    - Bradford
+    - Burnley
+    - Colne
+    - East Midlands Parkway
+    - Hull
+    - London
+    - Nelson
+    - Sheffield
+    - York
+  - Ipswich:
+    - Select
+    - Bradford
+    - Castleford
+    - Doncaster
+    - East Midlands Parkway
+    - Harrogate
+    - Huddersfield
+    - Leeds
+    - London
+    - Scunthorpe
+    - Silverstone
+    - York
+  - Keighley:
+    - Select
+    - Silverstone
+  - Kings Lynn:
+    - Select
+    - East Midlands Parkway
+    - London
+  - Lancaster:
+    - Select
+    - Silverstone
+  - Leeds:
+    - Select
+    - Aberdeen
+    - Bolton
+    - Carlisle
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Leeds
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Perth
+    - Rugby
+    - Sheffield
+    - Stirling
+  - Leicester:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Hull
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Toulouse
+  - Liverpool:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Milton Keynes
+    - Nottingham
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Toulouse
+  - London:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Coventry
+    - Gent
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Paris
+    - Rotterdam
+    - Silverstone
+    - Toulouse
+  - Loughborough:
+    - Select
+    - Aberdeen
+    - Aberystwyth
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Axminster
+    - Barcelona
+    - Bath
+    - Bath Spa
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bradford
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Burnley
+    - Camborne
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Carmarthen
+    - Castleford
+    - Cheltenham
+    - Chester
+    - Chesterfield
+    - Chippenham
+    - Colne
+    - Cologne
+    - Corsham
+    - Coventry
+    - Cumbernauld
+    - Cwmbran
+    - Derby
+    - Doncaster
+    - Dublin
+    - Dundee
+    - Dunfermline
+    - East Midlands Parkway
+    - Edinburgh
+    - Exeter
+    - Falkirk
+    - Gent
+    - Glasgow
+    - Gloucester
+    - Halbeath Interchange
+    - Halifax
+    - Harrogate
+    - Havant
+    - Holyhead
+    - Honiton
+    - Huddersfield
+    - Hull
+    - Inveraray
+    - Inverkeithing
+    - Inverness
+    - Keighley
+    - Kinross
+    - Lampeter
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - Lochgilphead
+    - Loughborough
+    - Macclesfield
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Nelson
+    - Newcastle
+    - Newport
+    - Newquay
+    - Newton Abbot
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Oban
+    - Oxford
+    - Paignton
+    - Paris
+    - Pembroke Dock
+    - Penzance
+    - Perth
+    - Pitlochry
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Redruth
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Salisbury
+    - Scotch Corner
+    - Scunthorpe
+    - Sheffield
+    - Silverstone
+    - Skipton
+    - Southampton
+    - St Erth
+    - Stirling
+    - Stockport
+    - Stoke-On-Trent
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Tarbert
+    - Torquay
+    - Toulouse
+    - Wakefield/Woolley Edge
+    - Weymouth
+    - Worcester
+    - Yeovil Junction
+    - York
+  - Luton:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Milton Keynes
+    - Nottingham
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Toulouse
+  - Manchester:
+    - Select
+    - Silverstone
+  - Middlesbrough:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Chester
+    - Cologne
+    - Coventry
+    - Cwmbran
+    - Dublin
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Holyhead
+    - Inveraray
+    - Inverness
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Oban
+    - Oxford
+    - Paris
+    - Perth
+    - Pitlochry
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Stirling
+    - Sunderland
+    - Tarbert
+    - Toulouse
+  - Milton Keynes:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Exeter
+    - Leeds
+    - London
+    - Manchester
+    - Oxford
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Wakefield/Woolley Edge
+  - Nelson:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Bolton
+    - Boulogne
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - London
+    - Loughborough
+    - Manchester
+    - Paris
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+  - Newbury:
+    - Select
+    - Bradford
+    - East Midlands Parkway
+    - Halifax
+    - Huddersfield
+    - Keighley
+    - London
+  - Newcastle:
+    - Select
+    - Silverstone
+  - Newquay:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Oxford
+    - Paris
+    - Perth
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Newton Abbot:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Northampton:
+    - Select
+    - Bristol
+    - London
+  - Norwich:
+    - Select
+    - Silverstone
+  - Norwich, University of East Anglia:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cambridge
+    - Cardiff
+    - Limoges
+    - London
+    - Paris
+    - Silverstone
+    - Toulouse
+  - Nottingham:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Cambridge
+    - Cardiff
+    - Limoges
+    - London
+    - Paris
+    - Toulouse
+  - Oxenholme:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Gent
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Paris
+    - Rotterdam
+    - Sheffield
+    - Silverstone
+    - Toulouse
+  - Oxford:
+    - Select
+    - Birmingham
+    - Carlisle
+    - Crewe
+    - Edinburgh
+    - Glasgow
+    - Preston
+    - Warrington
+  - Paignton:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Cambridge
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Poole
+    - Portsmouth
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+  - Penzance:
+    - Select
+    - Bristol
+    - Exeter
+    - London
+    - Silverstone
+  - Peterborough:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Plymouth:
+    - Select
+    - Silverstone
+  - Poole:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Camborne
+    - Cologne
+    - Exeter
+    - Gent
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Newquay
+    - Paris
+    - Penzance
+    - Redruth
+    - Rotterdam
+    - Silverstone
+    - St Erth
+    - Sunderland
+    - Toulouse
+  - Portsmouth:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Preston:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Silverstone
+    - Sunderland
+  - Reading:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Inveraray
+    - Inverness
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Oban
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Tarbert
+    - Toulouse
+    - Warrington
+  - Redruth:
+    - Select
+    - Silverstone
+  - Rugby:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Salisbury:
+    - Select
+    - Bolton
+    - Bristol
+    - Bristol UWE
+    - Campbeltown
+    - Cardiff
+    - Edinburgh
+    - Glasgow
+    - Inveraray
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Preston
+    - Sheffield
+    - Sunderland
+    - Swansea
+    - Tarbert
+  - Scotch Corner:
+    - Select
+    - London
+  - Scunthorpe:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Paris
+    - Perth
+    - Rotterdam
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Sheffield:
+    - Select
+    - East Midlands Parkway
+    - Harrogate
+    - Hull
+    - London
+    - Silverstone
+    - York
+  - Silverstone:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Bolton
+    - Boulogne
+    - Bournemouth
+    - Bradford
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Halifax
+    - Huddersfield
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Oxford
+    - Paris
+    - Perth
+    - Poole
+    - Portsmouth
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Sunderland
+    - Toulouse
+  - Southampton:
+    - Select
+    - Banbury
+    - Barnsley
+    - Bedford
+    - Birmingham
+    - Blackburn
+    - Bolton
+    - Brighton
+    - Bristol
+    - Cambridge
+    - Canterbury
+    - Cardiff
+    - Cheltenham
+    - Chester
+    - Colchester
+    - Coventry
+    - Crawley
+    - Daventry
+    - Derby
+    - Doncaster
+    - Dundee
+    - East Dereham
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Gloucester
+    - High Wycombe
+    - Hull
+    - Ipswich
+    - Kings Lynn
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Luton
+    - Manchester
+    - Middlesbrough
+    - Milton Keynes
+    - Newbury
+    - Newcastle
+    - Newport
+    - Northampton
+    - Norwich
+    - Nottingham
+    - Oxford
+    - Paignton
+    - Perth
+    - Peterborough
+    - Plymouth
+    - Portsmouth
+    - Preston
+    - Reading
+    - Scunthorpe
+    - Sheffield
+    - Southampton
+    - Stoke-On-Trent
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Taunton
+    - Thetford
+    - Torquay
+    - Warrington
+    - Wigan
+    - Winchester
+    - Worthing
+    - York
+  - Southampton Airport:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Silverstone
+    - Sunderland
+  - St Erth:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Coventry
+    - Leeds
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Oxford
+    - Sheffield
+    - Sunderland
+  - Stoke-On-Trent:
+    - Select
+    - Exeter
+    - London
+    - Plymouth
+  - Sunderland:
+    - Select
+    - Silverstone
+  - Swindon:
+    - Select
+    - Birmingham
+    - Birmingham International Airport
+    - Bournemouth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Exeter
+    - Leeds
+    - London
+    - Manchester
+    - Oxford
+    - Plymouth
+    - Poole
+    - Portsmouth
+    - Rugby
+    - Sheffield
+    - Silverstone
+    - Southampton
+    - Southampton Airport
+    - Wakefield/Woolley Edge
+  - Taunton:
+    - Select
+    - Barcelona
+    - Bath
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Cardiff
+    - Cheltenham
+    - Corsham
+    - Gloucester
+    - Limoges
+    - London
+    - Newport
+    - Paris
+    - Silverstone
+    - Toulouse
+    - Worcester
+  - Thetford:
+    - Select
+    - Silverstone
+  - Torquay:
+    - Select
+    - Silverstone
+  - Wakefield/Woolley Edge:
+    - Select
+    - Bristol
+    - Exeter
+    - London
+    - Silverstone
+  - Warrington:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lille
+    - Limoges
+    - London
+    - Middlesbrough
+    - Newcastle
+    - Paris
+    - Perth
+    - Rotterdam
+    - Scotch Corner
+    - Sunderland
+    - Toulouse
+  - Weymouth:
+    - Select
+    - Carlisle
+    - Glasgow
+    - Oxenholme
+    - Preston
+    - Silverstone
+  - Wigan:
+    - Select
+    - London
+  - Winchester:
+    - Select
+    - Silverstone
+  - Worcester:
+    - Select
+    - Silverstone
+  - Worthing:
+    - Select
+    - Gloucester
+    - London
+    - Swindon
+  - Yeovil Junction:
+    - Select
+    - Silverstone
+  - York:
+    - Select
+    - London
+- France:
+  - Select: []
+  - Bessines-sur-Gartempe: []
+  - Boulogne:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Brive-la-Gaillarde:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Lille:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Limoges:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Paris:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Swindon
+    - Wakefield/Woolley Edge
+  - Toulouse:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Barcelona
+    - Bath
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Wakefield/Woolley Edge
+- Germany:
+  - Select:
+    - Select
+    - Aberdeen
+    - Birmingham
+    - Birmingham International Airport
+    - Bristol
+    - Bristol UWE
+    - Brussels
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Cologne: []
+- Netherlands:
+  - Select: []
+  - Amsterdam: []
+  - Rotterdam:
+    - Select
+    - Aberdeen
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Coventry
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Liverpool
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+- Republic of Ireland:
+  - Select: []
+  - Dublin: []
+  - Rosslare:
+    - Select
+    - Chester
+    - Holyhead
+    - London
+    - Manchester
+- Scotland:
+  - Select: []
+  - Aberdeen: []
+  - Aviemore:
+    - Select
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Campbeltown:
+    - Select
+    - Birmingham
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Leeds
+    - London
+    - Manchester
+    - Newcastle
+    - Perth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Stirling
+    - Wakefield/Woolley Edge
+  - Cumbernauld:
+    - Select
+    - Birmingham
+    - Coventry
+    - Glasgow
+    - Inveraray
+    - Lochgilphead
+    - London
+    - Manchester
+    - Preston
+    - Rugby
+    - Tarbert
+  - Dundee:
+    - Select
+    - London
+  - Dunfermline:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Edinburgh:
+    - Select
+    - London
+  - Edinburgh Airport:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Bolton
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Carlisle
+    - Cologne
+    - Dundee
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Falkirk:
+    - Select
+    - Aberdeen
+    - Aviemore
+    - Carlisle
+    - Dundee
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Perth
+    - Pitlochry
+  - Glasgow:
+    - Select
+    - London
+  - Halbeath Interchange:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Bolton
+    - Boulogne
+    - Bristol
+    - Brive-la-Gaillarde
+    - Brussels
+    - Campbeltown
+    - Cardiff
+    - Carlisle
+    - Cologne
+    - Crewe
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Inveraray
+    - Inverness
+    - Lancaster
+    - Leeds
+    - Leicester
+    - Lille
+    - Limoges
+    - Lochgilphead
+    - London
+    - Loughborough
+    - Manchester
+    - Milton Keynes
+    - Newcastle
+    - Oban
+    - Oxenholme
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Rotterdam
+    - Rugby
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Tarbert
+    - Toulouse
+    - Wakefield/Woolley Edge
+    - Warrington
+  - Inveraray:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Inverness
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Inverkeithing:
+    - Select
+    - Birmingham
+    - Campbeltown
+    - Coventry
+    - Glasgow
+    - Lochgilphead
+    - London
+    - Manchester
+    - Oban
+    - Preston
+    - Rugby
+    - Tarbert
+  - Inverness:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Aviemore
+    - Boulogne
+    - Brussels
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leeds
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Scotch Corner
+    - Sheffield
+    - Wakefield/Woolley Edge
+  - Kinross:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Preston
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Lochgilphead:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Bessines-sur-Gartempe
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Oban:
+    - Select
+    - Birmingham
+    - Campbeltown
+    - Coventry
+    - Glasgow
+    - Inveraray
+    - London
+    - Manchester
+    - Preston
+    - Rugby
+    - Tarbert
+  - Perth:
+    - Select
+    - Birmingham
+    - Glasgow
+    - Inveraray
+    - London
+    - Manchester
+    - Preston
+  - Pitlochry:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Antwerp
+    - Aviemore
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cologne
+    - Dundee
+    - Edinburgh
+    - Edinburgh Airport
+    - Gent
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Inverness
+    - Kinross
+    - Lancaster
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Newcastle
+    - Paris
+    - Perth
+    - Pitlochry
+    - Preston
+    - Ramsgate
+    - Rotterdam
+    - Scotch Corner
+    - Sheffield
+    - Silverstone
+    - Stirling
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Stirling:
+    - Select
+    - Edinburgh
+    - Edinburgh Airport
+    - Glasgow
+    - Halbeath Interchange
+    - Inverkeithing
+    - Kinross
+    - Perth
+    - Stirling
+  - Tarbert:
+    - Select
+    - Aberdeen
+    - Aviemore
+    - Dundee
+    - Edinburgh
+    - Glasgow
+    - Inverness
+    - Lancaster
+    - London
+    - Manchester
+    - Perth
+    - Pitlochry
+    - Preston
+- Spain:
+  - Select:
+    - Select
+    - Aberdeen
+    - Amsterdam
+    - Bath
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cardiff
+    - Chippenham
+    - Corsham
+    - Dundee
+    - Edinburgh
+    - Exeter
+    - Glasgow
+    - Halbeath Interchange
+    - Inverness
+    - Kinross
+    - Leicester
+    - Limoges
+    - London
+    - Loughborough
+    - Manchester
+    - Newcastle
+    - Newport
+    - Norwich
+    - Norwich, University of East Anglia
+    - Nottingham
+    - Paris
+    - Perth
+    - Plymouth
+    - Preston
+    - Scotch Corner
+    - Sheffield
+    - Swindon
+    - Toulouse
+    - Wakefield/Woolley Edge
+  - Barcelona: []
+- Wales:
+  - Select: []
+  - Aberystwyth: []
+  - Cardiff:
+    - Select
+    - Cardiff
+    - Carmarthen
+    - London
+    - Swansea
+  - Carmarthen:
+    - Select
+    - Aberystwyth
+    - Amsterdam
+    - Antwerp
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Brussels
+    - Cambridge
+    - Carmarthen
+    - Cologne
+    - Coventry
+    - Gent
+    - Glasgow
+    - Lampeter
+    - Leeds
+    - Lille
+    - Limoges
+    - London
+    - Manchester
+    - Middlesbrough
+    - Newcastle
+    - Norwich
+    - Norwich, University of East Anglia
+    - Paris
+    - Pembroke Dock
+    - Rosslare
+    - Rotterdam
+    - Rugby
+    - Silverstone
+    - Sunderland
+    - Swansea
+    - Swindon
+    - Toulouse
+  - Cwmbran:
+    - Select
+    - Aberystwyth
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - London
+    - Newport
+    - Pembroke Dock
+    - Rosslare
+    - Swansea
+  - Holyhead:
+    - Select
+    - Birmingham
+    - Bristol
+    - Bristol UWE
+    - Leeds
+    - London
+    - Manchester
+  - Lampeter:
+    - Select
+    - Chester
+    - Dublin
+    - London
+    - Manchester
+  - Newport:
+    - Select
+    - Cardiff
+    - London
+    - Swansea
+  - Pembroke Dock:
+    - Select
+    - Barcelona
+    - Bessines-sur-Gartempe
+    - Birmingham
+    - Birmingham International Airport
+    - Boulogne
+    - Bristol
+    - Bristol UWE
+    - Brive-la-Gaillarde
+    - Carmarthen
+    - Coventry
+    - Limoges
+    - London
+    - Paris
+    - Pembroke Dock
+    - Rosslare
+    - Rugby
+    - Silverstone
+    - Swansea
+    - Swindon
+    - Toulouse
+  - Swansea:
+    - Select
+    - Bristol
+    - Bristol UWE
+    - Cardiff
+    - Carmarthen
+    - London
+    - Newport
+    - Rosslare
+    - Swansea

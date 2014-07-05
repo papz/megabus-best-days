@@ -35,6 +35,7 @@ Capybara.current_driver = :webkit
 Capybara.app_host = "http://uk.megabus.com/"
 
 module MegaBusBestDays
+  SEARCH_DATA_FILE = "search_data.yml"
 
   class MegaBusWebkitDriver
     include Capybara::DSL
@@ -103,11 +104,34 @@ module MegaBusBestDays
     end
 
     def store_search_data(routes)
-      store = YAML::Store.new("search_data.yml")
+      store = YAML::Store.new(SEARCH_DATA_FILE)
       store.transaction do
         store[:routes] = routes
       end
     end
 
+  end
+
+  Route = Struct.new(:country, :from)
+
+  class Routes
+    attr_reader :store
+
+    def initialize
+      store = YAML::Store.new(SEARCH_DATA_FILE)
+      @store = store.transaction { store[:routes] }
+    end
+
+    def countries
+      @store.map {|e| e.keys}.flatten
+    end
+
+    def from(country)
+      @store.select {|e| e.keys.first == country}[0][country].map {|e| e.first.first }
+    end
+
+    def destinations(country, from)
+      @store.select {|e| e.keys.first == country}[0][country].select {|e| e.first.first == from }[0][from]
+    end
   end
 end
