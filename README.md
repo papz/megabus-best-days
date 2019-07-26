@@ -26,3 +26,4 @@ todo
 * command line console menu to select routes and display results
 * options to choose date range and criteria for your price and time
 * provide an update of previously purchased route and display the difference in price
+* fix vulnerabilities
