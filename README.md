@@ -11,7 +11,7 @@ Running with selenium
 * xvfb-run [program ex. irb -I search.rb]
 
 Running with capybara-webkit
-for headless, use of simple capybara dsl and speed.
+for headless, use of simple capybara dsl and speed..
 Requirements:
 QtWebKit
 linux - sudo apt-get install libqt4-dev
